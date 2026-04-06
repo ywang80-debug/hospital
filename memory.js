@@ -44,7 +44,7 @@ function setup() {
 
 function draw() {
   noStroke()
-  fill(255)
+  fill(0)
 
   for (let i = 0; i < dot; i++) {
     let x = random(width)
