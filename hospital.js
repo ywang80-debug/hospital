@@ -74,7 +74,7 @@ function draw() {
 
   if (!dotdot()) {
     noStroke()
-    fill(255);
+    fill(0);
 
     for (let i = 0; i < dot; i++) {
       let xx = random(width)
